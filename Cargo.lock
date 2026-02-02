@@ -828,7 +828,7 @@ checksum = "0cc23270f6e1808e30a928bdc84dea0b9b4136a8bc82338574f23baf47bbd280"
 [[package]]
 name = "grovedb"
 version = "4.0.0"
-source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#bae082247ccb5ce256f1ed55a7a74cc543eb392f"
+source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#0dccc7d8a3060e1cd2948851be2f4783c8c3e042"
 dependencies = [
  "bincode 2.0.1",
  "bincode_derive",
@@ -855,7 +855,7 @@ dependencies = [
 [[package]]
 name = "grovedb-costs"
 version = "4.0.0"
-source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#bae082247ccb5ce256f1ed55a7a74cc543eb392f"
+source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#0dccc7d8a3060e1cd2948851be2f4783c8c3e042"
 dependencies = [
  "integer-encoding",
  "intmap",
@@ -865,7 +865,7 @@ dependencies = [
 [[package]]
 name = "grovedb-element"
 version = "4.0.0"
-source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#bae082247ccb5ce256f1ed55a7a74cc543eb392f"
+source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#0dccc7d8a3060e1cd2948851be2f4783c8c3e042"
 dependencies = [
  "bincode 2.0.1",
  "bincode_derive",
@@ -880,7 +880,7 @@ dependencies = [
 [[package]]
 name = "grovedb-merk"
 version = "4.0.0"
-source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#bae082247ccb5ce256f1ed55a7a74cc543eb392f"
+source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#0dccc7d8a3060e1cd2948851be2f4783c8c3e042"
 dependencies = [
  "bincode 2.0.1",
  "bincode_derive",
@@ -905,7 +905,7 @@ dependencies = [
 [[package]]
 name = "grovedb-path"
 version = "4.0.0"
-source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#bae082247ccb5ce256f1ed55a7a74cc543eb392f"
+source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#0dccc7d8a3060e1cd2948851be2f4783c8c3e042"
 dependencies = [
  "hex",
 ]
@@ -913,7 +913,7 @@ dependencies = [
 [[package]]
 name = "grovedb-storage"
 version = "4.0.0"
-source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#bae082247ccb5ce256f1ed55a7a74cc543eb392f"
+source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#0dccc7d8a3060e1cd2948851be2f4783c8c3e042"
 dependencies = [
  "blake3",
  "grovedb-costs",
@@ -932,7 +932,7 @@ dependencies = [
 [[package]]
 name = "grovedb-version"
 version = "4.0.0"
-source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#bae082247ccb5ce256f1ed55a7a74cc543eb392f"
+source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#0dccc7d8a3060e1cd2948851be2f4783c8c3e042"
 dependencies = [
  "thiserror 2.0.18",
  "versioned-feature-core",
@@ -941,7 +941,7 @@ dependencies = [
 [[package]]
 name = "grovedb-visualize"
 version = "4.0.0"
-source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#bae082247ccb5ce256f1ed55a7a74cc543eb392f"
+source = "git+https://github.com/PastaPastaPasta/grovedb?branch=feat%2Fbincode-2.0.1#0dccc7d8a3060e1cd2948851be2f4783c8c3e042"
 dependencies = [
  "hex",
  "itertools 0.14.0",

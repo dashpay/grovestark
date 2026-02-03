@@ -166,11 +166,14 @@ pub fn extract_closest_identity_id_from_key_proof(proof_bytes: &[u8]) -> Result<
             if let MerkOp::Push(node) | MerkOp::PushInverted(node) = op {
                 match node {
                     MerkNode::KV(key, _)
+                    | MerkNode::KVCount(key, _, _)
                     | MerkNode::KVValueHash(key, _, _)
                     | MerkNode::KVValueHashFeatureType(key, _, _, _)
                     | MerkNode::KVRefValueHash(key, _, _)
-                    | MerkNode::KVDigest(key, _) => candidates.push(key),
-                    MerkNode::Hash(_) | MerkNode::KVHash(_) => {}
+                    | MerkNode::KVRefValueHashCount(key, _, _, _)
+                    | MerkNode::KVDigest(key, _)
+                    | MerkNode::KVDigestCount(key, _, _) => candidates.push(key),
+                    MerkNode::Hash(_) | MerkNode::KVHash(_) | MerkNode::KVHashCount(_, _) => {}
                 }
             }
         }
